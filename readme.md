@@ -1,4 +1,4 @@
-# E-Commerce Backend (MERN stack API SERVER)
+# E-Commerce Backend (MERN Stack API Server)
 
 
 ## Description
@@ -36,7 +36,7 @@ npm run dev_backend
 - Brief documentations with codes
 
 
-### Functionalities
+## Functionalities
 
 <b>PRODUCTS HANDLING Functionalities</b>
 - Admin & User protections on relavant routes
@@ -71,7 +71,7 @@ npm run dev_backend
 - userModel.js has 2 mongoose.Schema currently: userSchema, otpSchema
 
 <b>Config Files</b>
-- I have set-up different configuration files explicitly. It's a proper way of following the 'DRY' principal.
+- I have set-up different configuration files explicitly (inside 'config' folder). It's a proper way of following the 'DRY' principal.
 
 
 ## Backend API Documentation
@@ -103,6 +103,7 @@ Go to https://ethereal.email and sign-in with below credentials:
 ## Production checks (backend)
 
 - Remove .env file & set virtual environments in the production server host
+- & More Coming
 
 
 ## JSON formats for testing common APIs
