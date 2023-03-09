@@ -1,0 +1,38 @@
+{
+  "name": "ecommerce_demo_superstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start_backend": "node backend/server.js",
+    "dev_backend": "nodemon backend/server.js",
+    "dev_frontend": "npm run dev --prefix frontend",
+    "dev_both": "concurrently \"npm run dev_backend\" \"npm run dev_frontend\""
+  },
+  "author": "M S K (DeepDiverGuy~backend) + N I (pixiem~frontend)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.33.0",
+    "cloudinary-build-url": "^0.2.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "otp-generator": "^4.0.0",
+    "streamifier": "^0.1.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
