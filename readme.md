@@ -79,7 +79,7 @@ npm run dev_backend
 Spreadsheet Link: https://docs.google.com/spreadsheets/d/1L9ITnaV0bEz1Q37mKeS4ktmurd_sDOcJdDMYUkASYJQ
 
 
-## To connect to MongoDB explixitly
+## To connect to MongoDB explicitly
 
 - Mongo URI: [Private, not needed]
 
