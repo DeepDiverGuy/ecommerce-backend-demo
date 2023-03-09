@@ -114,25 +114,17 @@ Go to https://ethereal.email and sign-in with below credentials:
         "name": "name",
         "email": "",
         "phone": "",
-        "password": "allahisone",
+        "password": "",
         "b_date": "2002-01-01",
         "address": "Bangladesh"
     }
 ```
 
-- user login:
+- user/admin login:
 ```
     {
-        "email": "testuser500@email.com",
-        "password": "allahisone"
-    }
-```
-
-- admin login:
-```
-    {
-        "email": "testadmin1@email.com",
-        "password": "allahisone"
+        "email": "",
+        "password": ""
     }
 ```
 
